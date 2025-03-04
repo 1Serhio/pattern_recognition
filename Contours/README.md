@@ -1,1 +1,1 @@
-![](/.pastes\2025-03-04-12-03-09.png)
+![image](https://github.com/user-attachments/assets/78d5fa04-69df-4ce0-9ec1-e2c360eebe27)
