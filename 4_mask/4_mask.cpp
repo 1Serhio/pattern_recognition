@@ -3,7 +3,7 @@
 
 int main() {
     // Загружаем изображение
-    cv::Mat image = cv::imread("C:/Users/4mo/source/repos/FirstOpenCV/FirstOpenCV/lena.png");
+    cv::Mat image = cv::imread(".../lena.png");
 
     // Проверяем, успешно ли загружено изображение
     if (image.empty()) {
