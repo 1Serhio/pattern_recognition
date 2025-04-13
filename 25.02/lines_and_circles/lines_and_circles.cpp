@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     // Загрузка изображения
-    string imagePath = "C:/Users/4mo/source/repos/FirstOpenCV/FirstOpenCV/lena.png"; // Укажите свой путь
+    string imagePath = ".../lena.png";
     Mat original = imread(imagePath);
 
     if (original.empty()) {
@@ -26,7 +26,7 @@ int main() {
     Canny(gray, edges, 50, 150); // Получаем границы
 
     vector<Vec2f> lines;
-    HoughLines(edges, lines, 1, CV_PI / 180, 360); // Порог можно регулировать
+    HoughLines(edges, lines, 1, CV_PI / 180, 360);
 
     // Отрисовка линий на result
     for (size_t i = 0; i < lines.size(); i++) {
