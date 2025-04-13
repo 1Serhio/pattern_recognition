@@ -4,13 +4,6 @@
 using namespace cv;
 using namespace std;
 
-// Функция для изменения размера изображения
-Mat resizeToFit(const Mat& src, Size targetSize) {
-    Mat resized;
-    resize(src, resized, targetSize);
-    return resized;
-}
-
 // Функция для создания коллажа изображений 2x3
 Mat createGridDisplay(const vector<Mat>& images, Size singleSize) {
     int rows = 2, cols = 3;
